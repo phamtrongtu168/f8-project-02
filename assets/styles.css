@@ -1,0 +1,230 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6 rem;
+    font-family: 'Poppins', sans-serif;
+}
+.btn{
+    display: inline-block;
+    padding: 16px 0;
+    min-width: 118px;
+    height: 50px;
+    background-color:#171100 ;
+    color: #ffffff;
+    border-radius: 24.5px;
+    font-size: 1.6rem;
+    text-align: center;
+  
+
+    
+}
+a{
+    text-decoration: none;
+}
+.main-content {
+    width: 1170px;
+    max-width: calc(100%-48px);
+    margin-left: auto;
+    margin-right: auto;
+}
+.header{
+    background-color: #FFFCF4;
+    ;
+}
+.header.fixer{
+    position: sticky;
+    top: -28px;
+    z-index: 1;
+}
+
+.header .body{
+    display: flex;
+    padding: 36px 0 8px;
+    align-items: center;
+}
+.header .signup-btn{
+    min-width: 144px;
+}
+
+.nav{
+    margin-right: 49px;
+    margin-left: auto;
+}
+.nav ul{
+    display: flex;
+    
+}
+
+.nav  a{
+    position: relative;
+    padding: 8px 21px;
+    color:#5F5B53;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+
+    
+
+}
+.nav a:hover,
+.nav ul li.active a{
+    
+    /* font-weight: 600; */
+    text-shadow: 1px 0 0 currentColor;
+    color:#171100;
+
+
+}
+.nav li.active a::after{
+    position: absolute;
+    content: "";
+    display: block;
+    width: 12px;
+    height: 2px;
+    background: #171100;
+    left: 21px;
+    border-radius: 999px;
+
+}
+.hero {
+    padding-top:56px;
+    background: #fffcf4;
+}
+.hero .body{
+    display: flex;
+}
+.hero .media-block{
+    width: 48%;
+    position: relative;
+}
+.hero .media-block .image{
+    width: 470px;
+    height: 685px;
+    border-radius: 20px;
+    object-fit: cover;
+
+}
+.hero .hero-summary{
+    width: 270px;
+    padding: 28px 24px;
+    position: absolute;
+    background-color: #ffffff;
+    border-radius: 12px;
+    bottom: 48px;
+    right: 0;
+    box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05);
+
+}
+.hero .hero-summary .item{
+    display: flex;
+}
+
+.hero .hero-summary .icon{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF9E8;
+}
+.hero .hero-summary .item:not(:first-child){
+    margin-top: 22px;
+}
+.hero .hero-summary .item:nth-child(2) .icon{
+    background-color: #FCEFFF;
+}
+.hero .hero-summary .item:nth-child(3) .icon{
+    background-color: #EBEAFF;
+}
+.hero .hero-summary .info {
+    margin-left: 16px;
+}
+.hero .hero-summary .lable {
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #5f5b53;
+}
+.hero .hero-summary .title{
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.67;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#171100;
+}
+.hero .content-block{
+    width: 52%;
+}
+.hero .content-block .content-body{
+    width: 470px;
+    margin: 7px auto 0;
+
+}
+.hero .content-block .heading{
+    font-family: Sen;
+    font-size: 5.8rem;
+    font-weight: 700;
+    line-height: 68px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color:#171100;
+
+}
+.hero .content-block .desc {
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-top: 20px;
+    line-height: 30px;
+    color:#5F5B53;
+}
+.hero .content-block .cta-group{
+    margin: 38px 0 48px 0;
+}
+.hero .content-block .cta-group .btn{
+    font-size: 1.8rem;
+    font-weight: 600;
+    min-width: 180px;
+    background-color: #FFB900;
+    margin-right: 14px;
+}
+.hero .content-block .cta-group  .watch-video{
+    width: 40px;
+    height: 40px;
+     border-radius: 50%;
+     box-shadow: 0px 8px 16px 0px #00000012;
+     border: none;
+     line-height: 50%;
+     margin: 0 14px;
+
+}
+.hero .content-block .cta-group span{
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 30px;
+    color: #171100;
+
+
+}
+.hero .content-block .desc strong{
+    font-family: Sen;
+    font-size: 4.4rem;
+    font-weight: 700;
+    line-height: 54px;
+    color:#171100;
+
+
+
+}
+
+.hero .content-block .desc strong:nth-child(2){
+    margin-left: 28px;
+}
